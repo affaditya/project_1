@@ -1,10 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <!-- Site Properties -->
+    <title>Login Example - Semantic</title>
+    <link href="css/vendor/reset.css" type="text/css" rel="stylesheet">
+    <link href="css/vendor/site.css" type="text/css" rel="stylesheet">
+
+    <link href="css/vendor/container.css" type="text/css" rel="stylesheet">
+    <link href="css/vendor/grid.css" type="text/css" rel="stylesheet">
+    <link href="css/vendor/header.css" type="text/css" rel="stylesheet">
+    <link href="css/vendor/image.css" type="text/css" rel="stylesheet">
+    <link href="css/vendor/menu.css" type="text/css" rel="stylesheet">
+
+    <link href="css/vendor/divider.css" type="text/css" rel="stylesheet">
+    <link href="css/vendor/segment.css" type="text/css" rel="stylesheet">
+    <link href="css/vendor/form.css" type="text/css" rel="stylesheet">
+    <link href="css/vendor/input.css" type="text/css" rel="stylesheet">
+    <link href="css/vendor/button.css" type="text/css" rel="stylesheet">
+    <link href="css/vendor/list.css" type="text/css" rel="stylesheet">
+    <link href="css/vendor/message.css" type="text/css" rel="stylesheet">
+    <link href="css/vendor/icon.css" type="text/css" rel="stylesheet">
+    <link href="css/custom/style.css" type="text/css" rel="stylesheet">
+
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/form.js"></script>
+    <script src="js/vendor/transition.js"></script>
 </head>
 <body>
+<div class="ui middle aligned center aligned grid">
+    <div class="column">
+        <h2 class="ui teal image header">
+            Log-in System
+        </h2>
+        <form class="ui large form">
+            <div class="ui stacked segment">
+                <div class="field">
+                    <div class="ui left icon input">
+                        <i class="user icon"></i>
+                        <input type="text" placeholder="E-mail address" name="email">
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui left icon input">
+                        <i class="lock icon"></i>
+                        <input type="password" placeholder="Password" name="password">
+                    </div>
+                </div>
+                <div class="ui fluid large teal submit button">Login</div>
+            </div>
+            <div class="ui error message"></div>
+        </form>
 
+        <div class="ui message">
+            Lupa Kata Sandi ? <a href="#">Reset Akun</a>
+        </div>
+    </div>
+</div>
 </body>
 </html>
